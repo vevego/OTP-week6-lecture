@@ -3,7 +3,7 @@ pipeline {
     stages {
         stage('Checkout') {
             steps {
-                git 'https://github.com/vevego/OTP-week6-lecture'
+                git branch: 'master', url: 'https://github.com/vevego/OTP-week6-lecture'
             }
         }
         stage('Build') {
