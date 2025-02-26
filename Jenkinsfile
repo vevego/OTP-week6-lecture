@@ -5,7 +5,7 @@ pipeline {
         // Define Docker Hub credentials ID
         DOCKERHUB_CREDENTIALS_ID = 'dockerhub-credentials'
         // Define Docker Hub repository name
-        DOCKERHUB_REPO = 'vevego/laskin'
+        DOCKERHUB_REPO = 'vevego/Laskin'
         // Define Docker image tag
         DOCKER_IMAGE_TAG = 'latest'
     }
